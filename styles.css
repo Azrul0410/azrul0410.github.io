@@ -1,3 +1,6 @@
+git add .
+git commit -m "Update: Modifikasi konten dan desain"
+git push origin main
 body {
     font-family: Arial, sans-serif;
     margin: 0;
