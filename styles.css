@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* Mengubah warna latar belakang */
 }
 
 header {
@@ -28,8 +28,21 @@ h2 {
     width: 300px;  /* Lebar gambar */
     height: 400px; /* Tinggi gambar */
     object-fit: cover; /* Memastikan gambar tidak terdistorsi */
-    border-radius: 10px; /* Menambahkan sudut melengkung */
+    border-radius: 10px; /* Menambahkan sud ut melengkung */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+}
+
+.download-cv {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-cv:hover {
+    background-color: #3e8e41;
 }
 
 footer {
