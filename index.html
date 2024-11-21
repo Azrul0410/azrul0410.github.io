@@ -1,34 +1,158 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Home Web Pribadi Azrul Azri Amrullah</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Toko Elektronik Online</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Header dan Navigasi -->
     <header>
-        <h1>Selamat Datang di Web Pribadi Saya</h1>
+        <h1>Toko Elektronik Online</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tentang.html">Tentang</a></li>
-                <li><a href="portofolio.html">Portofolio</a></li>                
-            </ul>
+            <a href="index.html">Beranda</a>
+            <a href="about.html">Tentang Kami</a>
+            <a href="contact.html">Kontak</a>
         </nav>
     </header>
-    
+
+    <!-- Bagian Utama -->
     <main>
-        <section>
-            <h2 style="font-family: Times New Roman; color:white; font-size:30px;">Home</h2>
-            <p>Halo! </b>Selamat datang di halaman pribadi saya. Saya Azrul Azri Amrullah dan ini adalah web sederhana saya.</p>
-            <p>Di sini, Anda dapat menemukan informasi tentang saya, pendidikan, keahlian, dan portofolio proyek yang telah saya kerjakan.</p>
+        <section id="welcome">
+            <h2>Selamat Datang di Toko Elektronik Online</h2>
+            <p>Kami menyediakan berbagai macam elektronik berkualitas tinggi untuk kebutuhan rumah dan bisnis Anda.</p>
+            <img src="images/elektronik.jpg" alt="Produk Elektronik" width="600">
+        </section>
+
+        <section id="products">
+            <h2>Produk Unggulan Kami</h2>
+
+            <!-- Tabel Produk 1: Laptop -->
+            <h3>Laptop</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Tabel harus berisi minimal 5 produk -->
+                    <tr>
+                        <td><img src="images/laptop1.jpg" alt="Laptop 1" width="100"></td>
+                        <td>Laptop ABC</td>
+                        <td>Rp10.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/laptop2.jpg" alt="Laptop 2" width="100"></td>
+                        <td>Laptop XYZ</td>
+                        <td>Rp12.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/laptop3.jpg" alt="Laptop 3" width="100"></td>
+                        <td>Laptop 123</td>
+                        <td>Rp8.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/laptop4.jpg" alt="Laptop 4" width="100"></td>
+                        <td>Laptop Pro</td>
+                        <td>Rp15.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/laptop5.jpg" alt="Laptop 5" width="100"></td>
+                        <td>Laptop Mini</td>
+                        <td>Rp9.000.000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Tabel Produk 2: Smartphone -->
+            <h3>Smartphone</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/smartphone1.jpg" alt="Smartphone 1" width="100"></td>
+                        <td>Smartphone A</td>
+                        <td>Rp3.500.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/smartphone2.jpg" alt="Smartphone 2" width="100"></td>
+                        <td>Smartphone B</td>
+                        <td>Rp4.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/smartphone3.jpg" alt="Smartphone 3" width="100"></td>
+                        <td>Smartphone C</td>
+                        <td>Rp5.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/smartphone4.jpg" alt="Smartphone 4" width="100"></td>
+                        <td>Smartphone D</td>
+                        <td>Rp2.500.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/smartphone5.jpg" alt="Smartphone 5" width="100"></td>
+                        <td>Smartphone E</td>
+                        <td>Rp6.000.000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Tabel Produk 3: TV -->
+            <h3>TV</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/tv1.jpg" alt="TV 1" width="100"></td>
+                        <td>Smart TV 40"</td>
+                        <td>Rp6.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/tv2.jpg" alt="TV 2" width="100"></td>
+                        <td>Smart TV 50"</td>
+                        <td>Rp7.500.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/tv3.jpg" alt="TV 3" width="100"></td>
+                        <td>Smart TV 60"</td>
+                        <td>Rp9.000.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/tv4.jpg" alt="TV 4" width="100"></td>
+                        <td>LED TV 55"</td>
+                        <td>Rp8.500.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/tv5.jpg" alt="TV 5" width="100"></td>
+                        <td>OLED TV 65"</td>
+                        <td>Rp11.000.000</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
-    
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Azrul Azri Amrullah. Semua hak dilindungi.</p>
+        <p>&copy; 2024 Toko Elektronik Online. Semua Hak Dilindungi.</p>
     </footer>
+
 </body>
 </html>
