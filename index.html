@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FisioKita - Layanan Fisioterapi Online & Home Visit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-[#4B6CC1] text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="flex items-center gap-2 px-4 py-3">
+    <img src="img/logo.png" alt="FisioKita" class="w-6 h-6" />
+    <span class="font-semibold text-lg">FisioKita</span>
+  </header>
+
+  <!-- Main -->
+  <main class="flex-grow px-6 pt-6 pb-12 max-w-md mx-auto w-full">
+
+    <!-- Hero -->
+    <section class="text-center mb-10">
+      <h1 class="font-bold text-3xl leading-tight mb-2">
+        Solusi Fisioterapi<br />
+        Online & Home Visit
+      </h1>
+      <p class="text-sm font-normal max-w-[280px] mx-auto mb-6">
+        Temukan fisioterapis terbaik untuk konsultasi online, kunjungan ke rumah, dan edukasi kesehatan.
+      </p>
+      <div class="flex flex-col gap-3">
+        <a href="konsultasi-online.html"
+           class="bg-[#3B4DB7] text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#2f3e8f] transition">
+          💬 Konsultasi Online
+        </a>
+        <a href="konsultasi-offline.html"
+           class="bg-white text-[#3B4DB7] text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#dce2fd] transition">
+          🏠 Booking Kunjungan Rumah
+        </a>
+      </div>
+    </section>
+
+    <!-- Navigasi Layanan -->
+    <section class="bg-white text-black rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-3 text-center">Layanan Lainnya</h2>
+      <div class="grid grid-cols-2 gap-4 text-sm font-medium text-center">
+        <a href="tes-kesehatan.html" class="bg-[#E0E7FF] rounded p-3 hover:bg-[#cdd7fc]">🧪 Tes Kesehatan</a>
+        <a href="artikel.html" class="bg-[#E0E7FF] rounded p-3 hover:bg-[#cdd7fc]">📚 Artikel Edukasi</a>
+        <a href="akun.html" class="bg-[#E0E7FF] rounded p-3 hover:bg-[#cdd7fc]">👤 Akun Saya</a>
+        <a href="admin-dashboard.html" class="bg-[#E0E7FF] rounded p-3 hover:bg-[#cdd7fc]">🔐 Admin</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-xs text-white opacity-80 py-4">
+    &copy; 2025 FisioKita. All rights reserved.
+  </footer>
+
+  <!-- Firebase init (opsional jika diperlukan) -->
+  <script src="js/main.js"></script>
+</body>
+</html>
